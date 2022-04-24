@@ -17,9 +17,8 @@ User.create(email: "iceman@gmail.com", password: "1234567", password_confirmatio
 
 puts "Users created..."
 
-Car.create(name: "Juva4", price_per_day: 300, description: "Vieille voiture")
-Car.create(name: "Ford Mustang", price_per_day: 700, description: "Année 1984")
-Car.create(name: "Renault 25", price_per_day: 300, description: "Modèle Courchevel")
-
+Car.create(name: "Juva4", price_per_day: 300, description: "Vieille voiture", car_image: "juva4.jpeg")
+Car.create(name: "Ford Mustang", price_per_day: 700, description: "Année 1984", car_image: "mustang.jpeg")
+Car.create(name: "Renault 25", price_per_day: 300, description: "Modèle Courchevel", car_image: "R25.jpeg")
 
 puts "cars created..."
